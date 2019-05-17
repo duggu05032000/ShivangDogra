@@ -1,0 +1,76 @@
+<html>
+<head>
+	<title> FORM
+	 </title>
+</head>
+<style>
+div {
+ 
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-align: center;
+ 
+}
+</style>
+<body>
+	<form action="process.php" method="POST">
+		<div>
+		<h1> Please fill the details</h1>
+	</div>
+		<div>
+		<label> First name</label>
+		<input type="text">
+	</div>
+	<div>
+		<label>Last name</label>
+		<input type="text">
+	</div>
+	<div>
+		<label>Course</label>
+		<input type="text">
+	</div>
+	<div>
+		<label>Email id</label>
+		<input type="text">
+	</div>
+	<div>
+		<label>Password</label>
+		<input type="Password">
+	</div>
+	<div>
+		<label>Gender</label>
+		<select name="Gender">
+		<option value="male">Male</option>
+		<option value="female">Female</option>
+	</select>
+</div>
+<div>
+		<label>Date of birth</label>
+		<input type="date">
+	</div>
+	<div>
+	<input type="checkbox"> I agree to the terms and conditions
+</div>
+<div>
+	<input type="submit" name="submit"
+	value="Submit">
+</div>
+</form>
+
+
+
+	<body style=
+	"font size:16px;
+	font weight:normal;
+	
+	line-height:15m;
+	border-right:10px black solid;
+	border-left:5px black solid;
+	border-top:5px black solid;
+	border-bottom:5px black solid;"
+</body>
+</body>
+</body>
+</html>
